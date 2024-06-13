@@ -9,7 +9,7 @@ import groovy.util.logging.Slf4j;
 @Slf4j
 public class PracticeController {
 
-	@GetMapping("/gtMessa")
+	@GetMapping("/gtMessage")
 	public String getMessage() {
 		System.out.println("Hi This Praveen Message From Spring Boot Practice Project");
 
