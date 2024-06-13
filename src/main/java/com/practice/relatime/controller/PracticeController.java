@@ -5,15 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import groovy.util.logging.Slf4j;
 
-
-
 @RequestMapping
 @Slf4j
 public class PracticeController {
 
-	@GetMapping("/getMessage")
-	public String getMessage()
-	{
+	@GetMapping("/getMessa")
+	public String getMessage() {
 		System.out.println("Hi This Message From Spring Boot Practice Project");
 
 		return "Hi Message From Spring Boot";
