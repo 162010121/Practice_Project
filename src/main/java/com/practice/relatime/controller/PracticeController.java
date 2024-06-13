@@ -9,9 +9,8 @@ import groovy.util.logging.Slf4j;
 @Slf4j
 public class PracticeController {
 
-	@GetMapping("/getMessage")
-	public String getMessage()
-	{
+	@GetMapping("/gtMessa")
+	public String getMessage() {
 		System.out.println("Hi This Message From Spring Boot Practice Project");
 
 		return "Hi Message From Spring Boot";
