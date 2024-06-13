@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping
 public class PracticeController {
 
-	@GetMapping("/getMess")
+	@GetMapping("/getMes")
 	public String getMessage()
 	{
 		System.out.println("Hi This Message From Spring Boot Practice Project");
