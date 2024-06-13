@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequestMapping
+@Slf4j
 public class PracticeController {
 
 	@GetMapping("/getMessage")
