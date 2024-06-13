@@ -19,6 +19,8 @@ public class PracticeController {
 	@GetMapping("/getData")
 	public String getData()
 	{
+		System.out.println("This Message From Get Date Methode");
 		return "Hi This Message From GetData Method";
+		
 	}
 }
