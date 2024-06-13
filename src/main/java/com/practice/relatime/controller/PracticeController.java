@@ -19,6 +19,8 @@ public class PracticeController {
 	@GetMapping("/getData")
 	public String getData()
 	{
+		
 		return "Hi This Message From GetData Method";
+		
 	}
 }
