@@ -11,7 +11,9 @@ public class PracticeController {
 
 	@GetMapping("/gtMessa")
 	public String getMessage() {
-		System.out.println("Hi This Message Spring Boot Practice Project");
+
+		System.out.println("Hi This Praveen Message From Spring Boot Practice Project");
+
 
 		return "Hi Message From Spring Boot";
 	}
